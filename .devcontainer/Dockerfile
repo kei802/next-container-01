@@ -10,3 +10,6 @@ FROM mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm
 
 # [Optional] Uncomment if you want to install more global node modules
 # RUN su node -c "npm install -g <your-package-list-here>"
+
+# npmを最新化
+RUN npm install -g npm
